@@ -1,0 +1,407 @@
+
+.banner {
+    background-image:linear-gradient(0deg,#00000085 0%,rgba(8, 10, 30, 0.544) 100% ), url(../resources/Banner\ Image.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 10px;
+    border-radius: 16px;
+}
+.banner h1{
+    padding-top: 150px; 
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.banner h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    
+}
+.offer h1{
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    text-align: center;
+    margin-top: 80px;
+}
+.offer h2{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 200;
+    text-align: center;
+    margin: 5px;
+
+}
+.offer h3{
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    margin-top: 5PX;
+}
+.offer img{
+    width: 802.9px;
+    height: 500px;
+    margin-left: 300px;
+    margin-bottom: 60px;
+}
+.victor{
+    background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 15px;
+    border-radius: 16px;
+    margin-top: 60px;
+
+    
+}
+.victor h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    padding: 80px;
+    padding-top: 100px;
+    padding-bottom: 5px;
+}
+.victor h2{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 5PX;
+    text-align: left;
+    padding-left: 80px;
+}
+.victor button{
+    margin-left: 80px;
+    border-radius: 5px;
+    background: none;
+    color: aliceblue;
+}
+.box{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    width: 1320px;
+    height: 482px;
+    margin-left: 5px;
+    margin-top: 100px;
+}
+.box-text{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    padding-top: 120px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.box span{
+    color: rgb(253, 69, 23);
+}
+.box button{
+    color: rgb(255, 255, 255);
+    background-color: orangered;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 140px;
+    height: 40px;
+    margin-left: 580px;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+}
+.group{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.group-text{
+    text-align: left;
+}
+.group-text h1{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+.group-text h2{
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+   
+}
+.group-text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+.group-text-2{
+    text-align: left;
+}
+.group-text-2 h1{
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    margin-bottom: 2px;
+}
+.group-text-2 p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    
+}
+.group-text-2 img{
+    width: 126px;
+    height: 144px;
+}
+.Ellipse img{
+    width: 186px;
+    height: 184px;
+   border:5px solid red,;
+   border-radius: 100%;
+}
+.function{
+    text-align: center;
+    margin-top: 80px;
+}
+.function h1{
+    color: rgb(7, 2, 17);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.function h2{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.function h2 span{
+    color: orangered;
+}
+.function p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 2px;
+}
+.rectangle{
+    display: flex;
+    margin-top: 80px;
+    position:relative;
+    justify-content: space-between;
+}
+.discount{
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 750px;
+}
+.pic-3{
+    margin-left: 14px;
+    margin-top: -235px;
+}
+.protfolio{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.protfolio-title h1{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    margin-bottom: 2px;
+}
+.protfolio-title h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.protfolio-title p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 2px;
+}
+.protfolio-img-line{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.boxshadaw{
+    width: 1320px;
+    height: 516px;
+    background-color: antiquewhite;
+    margin-left: 10px;
+    margin-top: 120px;
+    text-align: center;
+}
+.boxshadaw-img{
+    padding-top: 80px;
+}
+.boxshadaw-title h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.boxshadaw-title p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 2px;
+}
+form{
+    width: 348px;
+    height: 42px;
+    display: flex;
+    margin-left: 500PX;
+}
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    border-radius: 40px 0 0 40px;
+    padding-left: 70px;
+}
+form button{
+    border: none;
+    outline: none;
+    background: tomato;
+    border-radius:0 30px  30px 0 ;
+
+}
+.fooder{
+    background: rgb(7, 2, 17);
+    width: 1320px;
+    height: 520px;
+    margin-left: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.footer-address h1{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 40px;
+    padding-top: 60px;
+}
+.contacts{
+    display: flex;
+    text-align: right;
+
+}
+.contacts h1{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 40px;
+   padding-top: 50px;
+   padding-bottom: 2px;
+    
+}
+.contacts img{
+    height:36px ;
+    width: 36px;
+    padding-top: 60px;
+    padding-right: 5px;
+}
+.contacts-1{
+    display: flex;
+    justify-content: space-around;
+}
+.contacts-1 h1{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    padding-right: 40px;
+    margin-top: 4px;
+    
+}
+
+.contacts-1 img{
+    height:36px ;
+    width: 36px;
+    padding-right: 5px;
+}
+.border{
+    margin-top: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.icon img{
+    margin-left: 20px;
+    width: 30.99px;
+    height: 31.76px;
+    background: rgb(30, 30, 30);
+    border-radius: 5px;
+    border: 2px dotted white;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+.date h1{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    padding-left: 30px;
+}
+.date h2{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    padding-right: 50px;
+}
